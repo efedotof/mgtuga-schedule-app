@@ -11,11 +11,21 @@
 - Тёмная и светлая темы интерфейса
 
 ## 📸 Скриншоты
-<img  width = '200' heigth = '200' src ='https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic1.png' />
-<img  width = '200' heigth = '200' src ='https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic2.png' />
-<img  width = '200' heigth = '200' src ='https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic3.png' />
-<img  width = '200' heigth = '200' src ='https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic4.png' />
-<img  width = '200' heigth = '200' src ='https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic5.png' />
+
+<table>
+  <tr>
+    <td><img width="200" src="https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic1.png?raw=true" /></td>
+    <td><img width="200" src="https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic2.png?raw=true" /></td>
+  </tr>
+  <tr>
+    <td><img width="200" src="https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic3.png?raw=true" /></td>
+    <td><img width="200" src="https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic4.png?raw=true" /></td>
+  </tr>
+  <tr>
+    <td><img width="200" src="https://github.com/efedotof/mgtuga-schedule-app/blob/main/assets/pic5.png?raw=true" /></td>
+  </tr>
+</table>
+
 
 ## 🧑‍💻 Автор
 Федотов Егор Станиславович
