@@ -31,11 +31,11 @@ class ScheduleScreen extends StatelessWidget {
         elevation: 0,
         centerTitle: true,
         iconTheme: const IconThemeData(color: Colors.black),
-        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.settings))],
-        leading: IconButton(
-          onPressed: () => context.read<SwitchTypeCalendarCubit>().switchTo(),
-          icon: Icon(Icons.swap_horiz),
-        ),
+        // actions: [IconButton(onPressed: () {}, icon: Icon(Icons.settings))],
+        // leading: IconButton(
+        //   onPressed: () => context.read<SwitchTypeCalendarCubit>().switchTo(),
+        //   icon: Icon(Icons.swap_horiz),
+        // ),
       ),
       body: BlocBuilder<SwitchTypeCalendarCubit, SwitchTypeCalendarState>(
         builder: (context, state) {

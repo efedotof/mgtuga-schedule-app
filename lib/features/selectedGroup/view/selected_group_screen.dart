@@ -26,12 +26,8 @@ class SelectedGroupScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[50],
       appBar: AppBar(
-        title: const Text(
-          "Выбор группы",
-          style: TextStyle(color: Colors.black),
-        ),
+        title: const Text("Выбор группы"),
         centerTitle: true,
         elevation: 0,
         backgroundColor: Colors.transparent,
@@ -53,7 +49,7 @@ class SelectedGroupScreen extends StatelessWidget {
                     prefixIcon: const Icon(Icons.search),
                     contentPadding: const EdgeInsets.symmetric(horizontal: 20),
                     filled: true,
-                    fillColor: Colors.white,
+
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                       borderSide: const BorderSide(

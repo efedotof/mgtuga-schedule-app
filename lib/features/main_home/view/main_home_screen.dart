@@ -28,13 +28,16 @@ class MainHomeScreen extends StatelessWidget {
           currentIndex: tabsRouter.activeIndex,
           onTap: tabsRouter.setActiveIndex,
           items: const [
-            BottomNavigationBarItem(label: 'News', icon: Icon(Icons.newspaper)),
             BottomNavigationBarItem(
-              label: 'Schedule',
+              label: 'Новости',
+              icon: Icon(Icons.newspaper),
+            ),
+            BottomNavigationBarItem(
+              label: 'Расписание',
               icon: Icon(Icons.calendar_month),
             ),
             BottomNavigationBarItem(
-              label: 'Settings',
+              label: 'Настройки',
               icon: Icon(Icons.settings),
             ),
           ],

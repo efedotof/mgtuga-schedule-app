@@ -76,7 +76,6 @@ class NewsItemModel extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Заголовок и дата в одной строке
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -85,6 +84,7 @@ class NewsItemModel extends StatelessWidget {
                       child: Text(
                         news.title,
                         style: const TextStyle(
+                          color: Colors.black54,
                           fontWeight: FontWeight.w700,
                           fontSize: 18,
                           height: 1.3,
@@ -104,12 +104,9 @@ class NewsItemModel extends StatelessWidget {
                 ),
 
                 const SizedBox(height: 12),
-
-                // Описание новости
                 Text(
                   news.description,
-                  maxLines: 3,
-                  overflow: TextOverflow.ellipsis,
+                  softWrap: true,
                   style: TextStyle(
                     color: Colors.grey[700],
                     fontSize: 15,
@@ -118,31 +115,6 @@ class NewsItemModel extends StatelessWidget {
                 ),
 
                 const SizedBox(height: 16),
-
-                // Кнопка "Подробнее"
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: TextButton(
-                    onPressed: () {},
-                    style: TextButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 20,
-                        vertical: 8,
-                      ),
-                      backgroundColor: Colors.blue[50],
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                    ),
-                    child: const Text(
-                      'Подробнее',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ),
-                ),
               ],
             ),
           ),
